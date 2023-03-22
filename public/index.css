@@ -5,16 +5,39 @@ body {
     align-items: center;
 }
 
+.header-wrap {
+    overflow: hidden;
+    position: relative;
+}
+
+.header-background {
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.header-content {
+    position: relative;
+}
+
 header {
+    color: rgb(255, 255, 255);
     display: flex;
-    background-color: aquamarine;
-    border-style: dashed;
-    /* text-align: center; */
-    max-width: 50%;
+    background-color: black;
+    border-style: double;
+    border-color: rgb(0, 215, 215);
+    border-radius: 10px;
+    border-width: 20px;
+    width: 75%;
     flex-direction: column;
     align-items: center;
     padding: 10px;
+    box-shadow: 10px, 10px, 10px, black;
 }
+
 
 .rainbow {
     max-width: 50%;
