@@ -1,0 +1,21 @@
+body {
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    background-color: aquamarine;
+    border-style: dashed;
+    /* text-align: center; */
+    max-width: 50%;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.rainbow {
+    max-width: 50%;
+}
